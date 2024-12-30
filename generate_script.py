@@ -132,7 +132,7 @@ def create_podcast_script(content):
     
 def clean_podcast_script(script):
     # Define a regex pattern to identify the start of the podcast text
-    podcast_start_pattern = r"^(Speaker A:|Speaker B:)"
+    podcast_start_pattern = r"^(Speaker A:|Speaker B:|Speaker C:)"
     
     # Split the script into lines
     lines = script.splitlines()
